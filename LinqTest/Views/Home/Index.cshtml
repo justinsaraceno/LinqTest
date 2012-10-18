@@ -1,0 +1,13 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+Test page
+<p>
+    @using (Html.BeginForm("Index", "Home"))
+    {
+        <input type="submit" name="submit" id="submit" value="Submit" />
+    }
+    
+</p>
